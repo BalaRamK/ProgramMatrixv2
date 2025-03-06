@@ -132,7 +132,7 @@ export function Dashboard() {
           <a 
             href="#" 
             className="flex items-center px-6 py-3 text-gray-600 hover:bg-gray-50"
-            onClick={(e) => { e.preventDefault(); setActiveTab('roadmap'); navigate('/roadmap'); }}
+            onClick={(e) => { e.preventDefault(); setActiveTab('roadmap'); }}
           >
             <Calendar className="h-5 w-5 mr-3 text-gray-500" />
             <span>Roadmap & Milestones</span>
@@ -140,7 +140,7 @@ export function Dashboard() {
           <a 
             href="#" 
             className="flex items-center px-6 py-3 text-gray-600 hover:bg-gray-50"
-            onClick={(e) => { e.preventDefault(); setActiveTab('kpi'); navigate('/kpi')}}
+            onClick={(e) => { e.preventDefault(); setActiveTab('kpi'); }}
           >
             <BarChart3 className="h-5 w-5 mr-3 text-gray-500" />
             <span>KPI & Financials</span>
@@ -201,9 +201,9 @@ export function Dashboard() {
       </aside>
 
       {/* Main Content */}
-      <div className="flex-1 ml-64 mt-0">
+      <div className="flex-1 ml-64">
         {/* Top Navigation */}
-        <header className="bg-white shadow-sm sticky top-0 z-0">
+        <header className="bg-white shadow-sm sticky top-0 z-10">
           <div className="px-6 py-4 flex items-center justify-between">
             <div className="flex items-center w-1/2">
               <div className="relative w-full max-w-md">

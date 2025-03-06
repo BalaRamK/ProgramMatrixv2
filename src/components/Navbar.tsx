@@ -50,7 +50,18 @@ export function Navbar() {
                   >
                     Dashboard
                   </Link>
-                
+                  <Link
+                    to="/roadmap"
+                    className="text-sm font-medium text-gray-700 hover:text-gray-900"
+                  >
+                    Roadmap & Milestones
+                  </Link>
+                  <Link
+                    to="/kpi"
+                    className="text-sm font-medium text-gray-700 hover:text-gray-900"
+                  >
+                    KPI & Financial
+                  </Link>
                   <button
                     onClick={handleSignOut}
                     className="inline-flex h-9 items-center justify-center rounded-full bg-gray-900 px-4 text-sm font-medium text-white hover:bg-gray-700"
